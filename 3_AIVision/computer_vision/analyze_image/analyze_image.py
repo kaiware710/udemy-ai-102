@@ -1,4 +1,5 @@
 import os
+
 from azure.ai.vision.imageanalysis import ImageAnalysisClient
 from azure.ai.vision.imageanalysis.models import VisualFeatures
 from azure.core.credentials import AzureKeyCredential
@@ -6,9 +7,7 @@ from dotenv import load_dotenv
 
 # 環境変数からエンドポイントとキーを取得
 try:
-    
-    # .env ファイルを読み込む
-    load_dotenv()
+    load_dotenv()  # .env ファイルを読み込む
     endpoint = os.environ["VISION_ENDPOINT"]
     key = os.environ["VISION_KEY"]
 except KeyError:
@@ -17,10 +16,7 @@ except KeyError:
     exit()
 
 # 画像解析クライアントの初期化
-client = ImageAnalysisClient(
-    endpoint=endpoint,
-    credential=AzureKeyCredential(key)
-)
+client = ImageAnalysisClient(endpoint=endpoint, credential=AzureKeyCredential(key))
 
 # 画像解析の実行
 result = client.analyze(
