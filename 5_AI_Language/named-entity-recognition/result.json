@@ -1,0 +1,42 @@
+[
+  {
+    "Text": "Azure",
+    "Category": "Product",
+    "SubCategory": "ComputingProduct",
+    "Confidence Score": 1.0,
+    "Length": 5,
+    "Offset": 0
+  },
+  {
+    "Text": "Microsoft",
+    "Category": "Organization",
+    "SubCategory": null,
+    "Confidence Score": 0.92,
+    "Length": 9,
+    "Offset": 9
+  },
+  {
+    "Text": "deploy",
+    "Category": "Skill",
+    "SubCategory": null,
+    "Confidence Score": 0.6,
+    "Length": 6,
+    "Offset": 91
+  },
+  {
+    "Text": "network",
+    "Category": "Skill",
+    "SubCategory": null,
+    "Confidence Score": 0.71,
+    "Length": 7,
+    "Offset": 140
+  },
+  {
+    "Text": "data centers",
+    "Category": "Skill",
+    "SubCategory": null,
+    "Confidence Score": 0.99,
+    "Length": 12,
+    "Offset": 151
+  }
+]

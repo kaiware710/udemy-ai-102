@@ -1,5 +1,30 @@
 [
-    {
-        "name": "Artificial intelligence",
-        "matches": [
-            
+  {
+    "Name": "Microsoft Azure",
+    "Id": "Microsoft Azure",
+    "Url": "https://en.wikipedia.org/wiki/Microsoft_Azure",
+    "Data Source": "Wikipedia",
+    "Matches": [
+      {
+        "Text": "Azure",
+        "Confidence Score": 0.71,
+        "Offset": 0,
+        "Length": 5
+      }
+    ]
+  },
+  {
+    "Name": "Microsoft",
+    "Id": "Microsoft",
+    "Url": "https://en.wikipedia.org/wiki/Microsoft",
+    "Data Source": "Wikipedia",
+    "Matches": [
+      {
+        "Text": "Microsoft's",
+        "Confidence Score": 0.93,
+        "Offset": 9,
+        "Length": 11
+      }
+    ]
+  }
+]
